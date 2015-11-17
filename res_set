@@ -1,0 +1,17 @@
+#!/bin/bash
+# xrandr --newmode "1408x792_60.00"   90.75  1408 1480 1624 1840  792 795 800 823 -hsync +vsync
+# xrandr --addmode VGA1 1408x792_60.00
+# xrandr --output VGA1 --mode 1408x792_60.00
+
+xrandr --newmode "1536x864_60.00"  109.25  1536 1624 1784 2032  864 867 872 897 -hsync +vsync
+xrandr --addmode VGA1 1536x864_60.00
+xrandr --output VGA1 --mode 1536x864_60.00
+
+#xrandr --newmode "1600x900_60.00"  118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+#xrandr --addmode VGA1 1600x900_60.00
+#xrandr --output VGA1 --mode 1600x900_60.00
+
+#xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+#xrandr --addmode VGA1 1920x1080_60.00
+#xrandr --output VGA1 --mode 1920x1080_60.00
+
